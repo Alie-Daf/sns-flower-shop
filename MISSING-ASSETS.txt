@@ -1,0 +1,10 @@
+MISSING ORIGINAL IMAGE ASSETS
+
+The uploaded ZIP did not include the following images referenced by the original pages:
+- Homepage: 7.png, 8.png, BS1.png, BS2.png, BS3.png, BS4.png, BIRTHDAY.jpg, WEDDING-VENUW.jpg, GARDEN-WEDDING.jpg
+- Gallery review images: rew.jpg, reviews.jpg
+- Wedding gallery: wed9.jpg, WED15.jpg, WED2.jpg, WED6.jpg, WED12.jpg, WED5.jpg, WED16.JPG, WED13.jpg, WED14.jpg, WED3.jpg
+- Birthday gallery: BD1.JPG, BD2.JPG, BD3.JPG, BD4.JPG, BD5.jpg, BD6.JPG, BD8.JPG, BD9.JPG, BD10.JPG, BD11.JPG
+- Other occasion gallery: OE1.jpg, OE2.jpg, OE3.jpg, OE4.JPG, OE5.JPG, OE6.JPG, OE7.JPG, OE8.JPG, OE9.JPG, OE10.JPG
+
+Available substitutes were assigned from the actual images included in the ZIP so that the published pages do not show broken-image icons. Some gallery images repeat. Review image substitutions are bouquet photos, not original review photos.
