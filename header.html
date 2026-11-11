@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <style>
+        /* HEADER */
+            header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color:#ffe6e6;
+                padding: 12px 50px;
+                border-radius: 5px;
+                box-shadow: 0px 10px 5px #b2b0b040;
+                flex-wrap: wrap;
+                position: relative;
+            }
+
+            .logo-container {
+                display: flex;
+                flex-direction: column;
+            }
+
+            #logo-title {
+                font-family: 'Georgia', serif;
+                font-size: 40px;
+                margin: 0;
+                padding-left: 35px;
+            }
+
+            #logo-subtitle {
+                font-family: 'Georgia', serif;
+                font-style: italic;
+                font-size: 20px;
+                margin-top: 2px;
+                color: #3b3b3b;
+            }
+
+            /* NAVIGATION */
+                header nav {
+                flex-grow: 1;
+                display: flex;
+                justify-content: center;
+            }
+
+            header nav ul {
+                display: flex;
+                list-style: none;
+                gap: 20px;
+                margin: 0;
+                padding: 0;
+            }
+
+            header nav ul li a {
+                color: #726d6f;
+                text-decoration: none;
+                font-family: 'Segoe UI';
+                font-size: 18px;
+                transition: color 0.3s ease;
+            }
+
+            header nav ul li a:hover {
+                color: rgb(219, 91, 166);
+                box-shadow: 0 2px 0 0 currentColor;
+            }
+
+            /* Responsive Toggle Menu*/
+            #menu-toggle {display: none;}
+
+            .menu-icon {
+                display: none;
+                font-size: 26px;
+                cursor: pointer;
+            }
+
+            @media (max-width: 768px) {
+                header nav {
+                width: 100%;
+                order: 3;
+            }
+                header nav ul {
+                    display: none;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 10px 0;
+                    background-color: #ffe6e6;
+            }
+                #menu-toggle:checked + .menu-icon + nav ul {display: flex;}
+                .menu-icon {
+                    display: block;
+                    position: absolute;
+                    top: 15px;
+                    right: 30px;
+                }
+                #logo-title {font-size: 30px;}
+                #logo-subtitle {font-size: 16px;}
+            }
+            /* END HEADER */ 
+    
+    </style>
+       
+            
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="logo-container">
+          <h2 id="logo-title">SnS</h2>
+          <h3 id="logo-subtitle">Flowers & Events</h3>
+        </div>
+    
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon"><i class="bi bi-list"></i></label>
+    
+        <nav class="p-header">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+</body>
+</html>
